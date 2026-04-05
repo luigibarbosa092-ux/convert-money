@@ -58,6 +58,18 @@ button{
     cursor: pointer;
 }
 
+/* Bandeiras redondas e do mesmo tamanho */
+.currency-img, .currency-box img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: block;
+    margin: 0 auto 8px auto;
+}
+
 /* Responsividade para celulares e tablets */
 @media (max-width: 480px) {
     .logo {
